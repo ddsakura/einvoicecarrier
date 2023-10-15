@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2788B27F2ADB641800B9F4C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C09D822AD387FF0045ED2B /* ContentView.swift */; };
+		2788B2802ADB661F00B9F4C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C09D842AD388000045ED2B /* Assets.xcassets */; };
+		2788B2822ADB685900B9F4C8 /* EinvoiceBarcodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788B2812ADB685900B9F4C8 /* EinvoiceBarcodeView.swift */; };
+		2788B2832ADB696700B9F4C8 /* EinvoiceBarcodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788B2812ADB685900B9F4C8 /* EinvoiceBarcodeView.swift */; };
+		27C09D812AD387FF0045ED2B /* einvoicecarrierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C09D802AD387FF0045ED2B /* einvoicecarrierApp.swift */; };
+		27C09D832AD387FF0045ED2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C09D822AD387FF0045ED2B /* ContentView.swift */; };
+		27C09D852AD388000045ED2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C09D842AD388000045ED2B /* Assets.xcassets */; };
+		27C09D882AD388000045ED2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C09D872AD388000045ED2B /* Preview Assets.xcassets */; };
+		27C09D922AD388010045ED2B /* einvoicecarrierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C09D912AD388010045ED2B /* einvoicecarrierTests.swift */; };
+		27C09D9C2AD388010045ED2B /* einvoicecarrierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C09D9B2AD388010045ED2B /* einvoicecarrierUITests.swift */; };
+		27C09D9E2AD388010045ED2B /* einvoicecarrierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C09D9D2AD388010045ED2B /* einvoicecarrierUITestsLaunchTests.swift */; };
+		27C09DB12AD39DC30045ED2B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C09DB02AD39DC30045ED2B /* WidgetKit.framework */; };
+		27C09DB32AD39DC30045ED2B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C09DB22AD39DC30045ED2B /* SwiftUI.framework */; };
+		27C09DB62AD39DC30045ED2B /* einvoicewidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C09DB52AD39DC30045ED2B /* einvoicewidgetBundle.swift */; };
+		27C09DB82AD39DC30045ED2B /* einvoicewidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C09DB72AD39DC30045ED2B /* einvoicewidget.swift */; };
+		27C09DBA2AD39DC50045ED2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C09DB92AD39DC50045ED2B /* Assets.xcassets */; };
+		27C09DBE2AD39DC50045ED2B /* einvoicewidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 27C09DAE2AD39DC30045ED2B /* einvoicewidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27C09D8E2AD388010045ED2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C09D752AD387FF0045ED2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C09D7C2AD387FF0045ED2B;
+			remoteInfo = einvoicecarrier;
+		};
+		27C09D982AD388010045ED2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C09D752AD387FF0045ED2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C09D7C2AD387FF0045ED2B;
+			remoteInfo = einvoicecarrier;
+		};
+		27C09DBC2AD39DC50045ED2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C09D752AD387FF0045ED2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C09DAD2AD39DC30045ED2B;
+			remoteInfo = einvoicewidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27C09DC22AD39DC50045ED2B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				27C09DBE2AD39DC50045ED2B /* einvoicewidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		274C417C2ADA1A7D007DF21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2788B2812ADB685900B9F4C8 /* EinvoiceBarcodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EinvoiceBarcodeView.swift; sourceTree = "<group>"; };
+		27C09D7D2AD387FF0045ED2B /* einvoicecarrier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = einvoicecarrier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C09D802AD387FF0045ED2B /* einvoicecarrierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = einvoicecarrierApp.swift; sourceTree = "<group>"; };
+		27C09D822AD387FF0045ED2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27C09D842AD388000045ED2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27C09D872AD388000045ED2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27C09D8D2AD388010045ED2B /* einvoicecarrierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = einvoicecarrierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C09D912AD388010045ED2B /* einvoicecarrierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = einvoicecarrierTests.swift; sourceTree = "<group>"; };
+		27C09D972AD388010045ED2B /* einvoicecarrierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = einvoicecarrierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C09D9B2AD388010045ED2B /* einvoicecarrierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = einvoicecarrierUITests.swift; sourceTree = "<group>"; };
+		27C09D9D2AD388010045ED2B /* einvoicecarrierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = einvoicecarrierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27C09DAE2AD39DC30045ED2B /* einvoicewidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = einvoicewidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C09DB02AD39DC30045ED2B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		27C09DB22AD39DC30045ED2B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		27C09DB52AD39DC30045ED2B /* einvoicewidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = einvoicewidgetBundle.swift; sourceTree = "<group>"; };
+		27C09DB72AD39DC30045ED2B /* einvoicewidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = einvoicewidget.swift; sourceTree = "<group>"; };
+		27C09DB92AD39DC50045ED2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27C09DBB2AD39DC50045ED2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27C09D7A2AD387FF0045ED2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C09D8A2AD388010045ED2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C09D942AD388010045ED2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C09DAB2AD39DC30045ED2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C09DB32AD39DC30045ED2B /* SwiftUI.framework in Frameworks */,
+				27C09DB12AD39DC30045ED2B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C09D742AD387FF0045ED2B = {
+			isa = PBXGroup;
+			children = (
+				27C09D7F2AD387FF0045ED2B /* einvoicecarrier */,
+				27C09D902AD388010045ED2B /* einvoicecarrierTests */,
+				27C09D9A2AD388010045ED2B /* einvoicecarrierUITests */,
+				27C09DB42AD39DC30045ED2B /* einvoicewidget */,
+				27C09DAF2AD39DC30045ED2B /* Frameworks */,
+				27C09D7E2AD387FF0045ED2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27C09D7E2AD387FF0045ED2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27C09D7D2AD387FF0045ED2B /* einvoicecarrier.app */,
+				27C09D8D2AD388010045ED2B /* einvoicecarrierTests.xctest */,
+				27C09D972AD388010045ED2B /* einvoicecarrierUITests.xctest */,
+				27C09DAE2AD39DC30045ED2B /* einvoicewidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27C09D7F2AD387FF0045ED2B /* einvoicecarrier */ = {
+			isa = PBXGroup;
+			children = (
+				274C417C2ADA1A7D007DF21B /* Info.plist */,
+				27C09D802AD387FF0045ED2B /* einvoicecarrierApp.swift */,
+				27C09D822AD387FF0045ED2B /* ContentView.swift */,
+				2788B2812ADB685900B9F4C8 /* EinvoiceBarcodeView.swift */,
+				27C09D842AD388000045ED2B /* Assets.xcassets */,
+				27C09D862AD388000045ED2B /* Preview Content */,
+			);
+			path = einvoicecarrier;
+			sourceTree = "<group>";
+		};
+		27C09D862AD388000045ED2B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27C09D872AD388000045ED2B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27C09D902AD388010045ED2B /* einvoicecarrierTests */ = {
+			isa = PBXGroup;
+			children = (
+				27C09D912AD388010045ED2B /* einvoicecarrierTests.swift */,
+			);
+			path = einvoicecarrierTests;
+			sourceTree = "<group>";
+		};
+		27C09D9A2AD388010045ED2B /* einvoicecarrierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27C09D9B2AD388010045ED2B /* einvoicecarrierUITests.swift */,
+				27C09D9D2AD388010045ED2B /* einvoicecarrierUITestsLaunchTests.swift */,
+			);
+			path = einvoicecarrierUITests;
+			sourceTree = "<group>";
+		};
+		27C09DAF2AD39DC30045ED2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27C09DB02AD39DC30045ED2B /* WidgetKit.framework */,
+				27C09DB22AD39DC30045ED2B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27C09DB42AD39DC30045ED2B /* einvoicewidget */ = {
+			isa = PBXGroup;
+			children = (
+				27C09DB52AD39DC30045ED2B /* einvoicewidgetBundle.swift */,
+				27C09DB72AD39DC30045ED2B /* einvoicewidget.swift */,
+				27C09DB92AD39DC50045ED2B /* Assets.xcassets */,
+				27C09DBB2AD39DC50045ED2B /* Info.plist */,
+			);
+			path = einvoicewidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27C09D7C2AD387FF0045ED2B /* einvoicecarrier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C09DA12AD388010045ED2B /* Build configuration list for PBXNativeTarget "einvoicecarrier" */;
+			buildPhases = (
+				27C09D792AD387FF0045ED2B /* Sources */,
+				27C09D7A2AD387FF0045ED2B /* Frameworks */,
+				27C09D7B2AD387FF0045ED2B /* Resources */,
+				27C09DC22AD39DC50045ED2B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C09DBD2AD39DC50045ED2B /* PBXTargetDependency */,
+			);
+			name = einvoicecarrier;
+			productName = einvoicecarrier;
+			productReference = 27C09D7D2AD387FF0045ED2B /* einvoicecarrier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27C09D8C2AD388010045ED2B /* einvoicecarrierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C09DA42AD388010045ED2B /* Build configuration list for PBXNativeTarget "einvoicecarrierTests" */;
+			buildPhases = (
+				27C09D892AD388010045ED2B /* Sources */,
+				27C09D8A2AD388010045ED2B /* Frameworks */,
+				27C09D8B2AD388010045ED2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C09D8F2AD388010045ED2B /* PBXTargetDependency */,
+			);
+			name = einvoicecarrierTests;
+			productName = einvoicecarrierTests;
+			productReference = 27C09D8D2AD388010045ED2B /* einvoicecarrierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27C09D962AD388010045ED2B /* einvoicecarrierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C09DA72AD388010045ED2B /* Build configuration list for PBXNativeTarget "einvoicecarrierUITests" */;
+			buildPhases = (
+				27C09D932AD388010045ED2B /* Sources */,
+				27C09D942AD388010045ED2B /* Frameworks */,
+				27C09D952AD388010045ED2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C09D992AD388010045ED2B /* PBXTargetDependency */,
+			);
+			name = einvoicecarrierUITests;
+			productName = einvoicecarrierUITests;
+			productReference = 27C09D972AD388010045ED2B /* einvoicecarrierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		27C09DAD2AD39DC30045ED2B /* einvoicewidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C09DBF2AD39DC50045ED2B /* Build configuration list for PBXNativeTarget "einvoicewidgetExtension" */;
+			buildPhases = (
+				27C09DAA2AD39DC30045ED2B /* Sources */,
+				27C09DAB2AD39DC30045ED2B /* Frameworks */,
+				27C09DAC2AD39DC30045ED2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = einvoicewidgetExtension;
+			productName = einvoicewidgetExtension;
+			productReference = 27C09DAE2AD39DC30045ED2B /* einvoicewidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27C09D752AD387FF0045ED2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					27C09D7C2AD387FF0045ED2B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					27C09D8C2AD388010045ED2B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 27C09D7C2AD387FF0045ED2B;
+					};
+					27C09D962AD388010045ED2B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 27C09D7C2AD387FF0045ED2B;
+					};
+					27C09DAD2AD39DC30045ED2B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 27C09D782AD387FF0045ED2B /* Build configuration list for PBXProject "einvoicecarrier" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27C09D742AD387FF0045ED2B;
+			productRefGroup = 27C09D7E2AD387FF0045ED2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27C09D7C2AD387FF0045ED2B /* einvoicecarrier */,
+				27C09D8C2AD388010045ED2B /* einvoicecarrierTests */,
+				27C09D962AD388010045ED2B /* einvoicecarrierUITests */,
+				27C09DAD2AD39DC30045ED2B /* einvoicewidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27C09D7B2AD387FF0045ED2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C09D882AD388000045ED2B /* Preview Assets.xcassets in Resources */,
+				27C09D852AD388000045ED2B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C09D8B2AD388010045ED2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C09D952AD388010045ED2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C09DAC2AD39DC30045ED2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2788B2802ADB661F00B9F4C8 /* Assets.xcassets in Resources */,
+				27C09DBA2AD39DC50045ED2B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27C09D792AD387FF0045ED2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2788B2822ADB685900B9F4C8 /* EinvoiceBarcodeView.swift in Sources */,
+				27C09D832AD387FF0045ED2B /* ContentView.swift in Sources */,
+				27C09D812AD387FF0045ED2B /* einvoicecarrierApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C09D892AD388010045ED2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C09D922AD388010045ED2B /* einvoicecarrierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C09D932AD388010045ED2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C09D9C2AD388010045ED2B /* einvoicecarrierUITests.swift in Sources */,
+				27C09D9E2AD388010045ED2B /* einvoicecarrierUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C09DAA2AD39DC30045ED2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C09DB62AD39DC30045ED2B /* einvoicewidgetBundle.swift in Sources */,
+				2788B2832ADB696700B9F4C8 /* EinvoiceBarcodeView.swift in Sources */,
+				27C09DB82AD39DC30045ED2B /* einvoicewidget.swift in Sources */,
+				2788B27F2ADB641800B9F4C8 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27C09D8F2AD388010045ED2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C09D7C2AD387FF0045ED2B /* einvoicecarrier */;
+			targetProxy = 27C09D8E2AD388010045ED2B /* PBXContainerItemProxy */;
+		};
+		27C09D992AD388010045ED2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C09D7C2AD387FF0045ED2B /* einvoicecarrier */;
+			targetProxy = 27C09D982AD388010045ED2B /* PBXContainerItemProxy */;
+		};
+		27C09DBD2AD39DC50045ED2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C09DAD2AD39DC30045ED2B /* einvoicewidgetExtension */;
+			targetProxy = 27C09DBC2AD39DC50045ED2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27C09D9F2AD388010045ED2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27C09DA02AD388010045ED2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27C09DA22AD388010045ED2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"einvoicecarrier/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = einvoicecarrier/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "e發票載具";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddtest.einvoicecarrier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27C09DA32AD388010045ED2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"einvoicecarrier/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = einvoicecarrier/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "e發票載具";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddtest.einvoicecarrier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27C09DA52AD388010045ED2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddtest.einvoicecarrierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/einvoicecarrier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/einvoicecarrier";
+			};
+			name = Debug;
+		};
+		27C09DA62AD388010045ED2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddtest.einvoicecarrierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/einvoicecarrier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/einvoicecarrier";
+			};
+			name = Release;
+		};
+		27C09DA82AD388010045ED2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddtest.einvoicecarrierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = einvoicecarrier;
+			};
+			name = Debug;
+		};
+		27C09DA92AD388010045ED2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddtest.einvoicecarrierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = einvoicecarrier;
+			};
+			name = Release;
+		};
+		27C09DC02AD39DC50045ED2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = einvoicewidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "發票載具Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddtest.einvoicecarrier.einvoicewidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27C09DC12AD39DC50045ED2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = einvoicewidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "發票載具Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddtest.einvoicecarrier.einvoicewidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27C09D782AD387FF0045ED2B /* Build configuration list for PBXProject "einvoicecarrier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C09D9F2AD388010045ED2B /* Debug */,
+				27C09DA02AD388010045ED2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C09DA12AD388010045ED2B /* Build configuration list for PBXNativeTarget "einvoicecarrier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C09DA22AD388010045ED2B /* Debug */,
+				27C09DA32AD388010045ED2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C09DA42AD388010045ED2B /* Build configuration list for PBXNativeTarget "einvoicecarrierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C09DA52AD388010045ED2B /* Debug */,
+				27C09DA62AD388010045ED2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C09DA72AD388010045ED2B /* Build configuration list for PBXNativeTarget "einvoicecarrierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C09DA82AD388010045ED2B /* Debug */,
+				27C09DA92AD388010045ED2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C09DBF2AD39DC50045ED2B /* Build configuration list for PBXNativeTarget "einvoicewidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C09DC02AD39DC50045ED2B /* Debug */,
+				27C09DC12AD39DC50045ED2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27C09D752AD387FF0045ED2B /* Project object */;
+}
