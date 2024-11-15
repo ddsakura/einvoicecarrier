@@ -14,7 +14,7 @@ struct ContentView: View {
         VStack {
             EinvoiceBarcodeView()
                 .onTapGesture {
-                    UIPasteboard.general.string = "/8FUOLPQ"
+                    UIPasteboard.general.string = "Barcode"
                     showCopiedMessage = true
                 }
         }
